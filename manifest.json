@@ -1,0 +1,13 @@
+{
+    "name": "Qazana Chrome Dev Tools",
+    "version": "1.0.0",
+    "description": "Build an Extension!",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+          "matches": ["http://*/*"], 
+          "js": ["js/qazana.js"],
+          "css" : ["css/qazana.css"]
+        }
+    ]
+  }
